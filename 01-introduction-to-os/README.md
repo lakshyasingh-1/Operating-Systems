@@ -82,10 +82,10 @@ mindmap
 timeline
     title Evolution of Operating Systems
     1950s : Batch Processing Systems
-    1960s : Spooling
-    1960s-70s : Multiprogramming
+    1960s : Spooling   
+    1960s-70s : Multiprogramming 
     1970s : Multitasking / Time-Sharing
-    1980s+ : Multiprocessing
+    1980s+ : Multiprocessing   
 ```
 
 | Stage | Problem It Solved | Key Idea |
