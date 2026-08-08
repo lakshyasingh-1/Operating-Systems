@@ -52,8 +52,8 @@ graph TD
 stateDiagram-v2
     [*] --> New
     New --> Ready: admitted
-    Ready --> Running:  .        dispatched by scheduler
-    Running --> Ready: interrupt / time quantum expires
+    Ready --> Running: dispatched by scheduler
+    Running --> Ready: interrupt or time quantum expires
     Running --> Waiting: I/O or event wait
     Waiting --> Ready: I/O or event completion
     Running --> Terminated: exit
