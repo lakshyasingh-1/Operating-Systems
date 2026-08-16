@@ -233,13 +233,6 @@ graph LR
 
 ---
 
-## 🧑‍🏫 Teaching Flow (50 min suggestion)
-| Time | Activity |
-|---|---|
-| 0–10 min | File basics + access methods (use analogies: tape, vinyl, book index) |
-| 10–20 min | Directory structures — draw all 3 live, discuss pros/cons |
-| 20–35 min | File allocation methods — draw contiguous/linked/indexed, then the i-node diagram; do the max-file-size numerical |
-| 35–45 min | Free space management + Access Matrix/ACL/Capability comparison |
-| 45–50 min | UNIX permissions — quick octal conversion drill |
+
 
 [⬅ Previous: Virtual Memory](../06-virtual-memory/README.md) | [⬆ Index](../README.md) | [Next: I/O & Disk Scheduling ➡](../08-io-and-disk-scheduling/README.md)
