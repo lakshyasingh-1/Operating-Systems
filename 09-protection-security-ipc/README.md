@@ -175,15 +175,6 @@ graph TD
 
 ---
 
-## 🧑‍🏫 Teaching Flow (45 min suggestion)
-| Time | Activity |
-|---|---|
-| 0–10 min | Protection vs Security + CIA Triad — classify real-world attack examples |
-| 10–20 min | Access Matrix → derive ACL and Capability List from the same table live on the board |
-| 20–30 min | OS Threats — quick-fire definitions (virus/worm/trojan), discuss real examples students may know |
-| 30–45 min | IPC — shared memory vs message passing, then live terminal demo of a pipe (`ls \| grep`) |
-
----
 
 [⬅ Previous: I/O & Disk Scheduling](../08-io-and-disk-scheduling/README.md) | [⬆ Back to Index](../README.md)
 
