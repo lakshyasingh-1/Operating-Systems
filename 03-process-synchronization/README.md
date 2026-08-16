@@ -210,13 +210,5 @@ graph TD
 
 ---
 
-## 🧑‍🏫 Teaching Flow (60 min suggestion)
-| Time | Activity |
-|---|---|
-| 0–10 min | Live-code the race condition example (counter increment) — show it on the board with the sequence diagram |
-| 10–20 min | Critical Section + 3 criteria using the bridge analogy |
-| 20–35 min | Peterson's Algorithm — trace through with 2 students physically acting as P0/P1 |
-| 35–50 min | Semaphores + Producer-Consumer — write the code, ask "what if we swap wait(empty) and wait(mutex)?" |
-| 50–60 min | Dining Philosophers — draw the circular graph, ask students to spot the deadlock scenario themselves |
 
 [⬅ Previous: Process Management & CPU Scheduling](../02-process-management-and-cpu-scheduling/README.md) | [⬆ Index](../README.md) | [Next: Deadlock ➡](../04-deadlock/README.md)
