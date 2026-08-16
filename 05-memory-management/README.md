@@ -219,13 +219,6 @@ graph TD
 
 ---
 
-## 🧑‍🏫 Teaching Flow (60 min suggestion)
-| Time | Activity |
-|---|---|
-| 0–10 min | Draw process memory layout (code/data/heap/stack) — explain heap ↑ vs stack ↓ |
-| 10–20 min | Fixed vs dynamic partitioning, internal vs external fragmentation (use the free-block diagram) |
-| 20–30 min | Fit algorithms — work the 212KB example live, ask class to vote before revealing each answer |
-| 30–45 min | Why paging → address translation diagram → solved numerical |
-| 45–60 min | Multi-level paging — bits calculation practice problems |
+
 
 [⬅ Previous: Deadlock](../04-deadlock/README.md) | [⬆ Index](../README.md) | [Next: Virtual Memory ➡](../06-virtual-memory/README.md)
