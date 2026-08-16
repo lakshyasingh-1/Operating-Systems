@@ -217,12 +217,6 @@ graph LR
 
 ---
 
-## 🧑‍🏫 Teaching Flow (60 min suggestion)
-| Time | Activity |
-|---|---|
-| 0–10 min | I/O hardware + DMA sequence diagram — "why not just use interrupts for everything?" |
-| 10–20 min | Disk structure (tracks/sectors/cylinders) + access time formula + solved numerical |
-| 20–50 min | Work through the SAME request queue with FCFS → SSTF → SCAN → C-SCAN → LOOK → C-LOOK live on the board — this contrast is the single best way to teach this topic |
-| 50–60 min | Modern I/O (NVMe/TRIM/SSD) — discuss why classical algorithms matter less on SSDs |
+
 
 [⬅ Previous: File System Management](../07-file-system-management/README.md) | [⬆ Index](../README.md) | [Next: Protection, Security & IPC ➡](../09-protection-security-ipc/README.md)
