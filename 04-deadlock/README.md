@@ -159,13 +159,4 @@ graph LR
 
 ---
 
-## 🧑‍🏫 Teaching Flow (60 min suggestion)
-| Time | Activity |
-|---|---|
-| 0–10 min | Traffic jam analogy → map to 4 Coffman conditions |
-| 10–20 min | Draw RAG examples on board — mix single & multi-instance, ask "deadlock or not?" |
-| 20–25 min | Deadlock handling strategies overview (the 4-box diagram) |
-| 25–50 min | Full Banker's Algorithm numerical — walk through step by step, have students verify each Need ≤ Available check |
-| 50–60 min | Deadlock vs Starvation — quick discussion + Q&A |
-
 [⬅ Previous: Process Synchronization](../03-process-synchronization/README.md) | [⬆ Index](../README.md) | [Next: Memory Management ➡](../05-memory-management/README.md)
