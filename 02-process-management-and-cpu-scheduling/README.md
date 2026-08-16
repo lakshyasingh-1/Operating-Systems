@@ -223,13 +223,6 @@ Compare response ratios of all waiting processes; **highest wins**.
 
 ---
 
-## 🧑‍🏫 Teaching Flow (60 min suggestion)
-| Time | Activity |
-|---|---|
-| 0–10 min | Process concept + PCB diagram + state diagram (draw state diagram live, ask "can Waiting go to Running directly?") |
-| 10–15 min | Scheduling criteria + the `TAT = CT-AT`, `WT = TAT-BT` chain (write on board, don't skip this) |
-| 15–35 min | Work through FCFS → SJF → SRTF → RR live on the board using the same process set so students see the *contrast* |
-| 35–45 min | HRRN & Priority + aging discussion |
-| 45–60 min | Group exercise: give a process table, have students draw the Gantt chart for 2 algorithms and compute avg WT/TAT |
+
 
 [⬅ Previous: Introduction to OS](../01-introduction-to-os/README.md) | [⬆ Index](../README.md) | [Next: Process Synchronization ➡](../03-process-synchronization/README.md)
