@@ -211,13 +211,6 @@ graph TD
 
 ---
 
-## 🧑‍🏫 Teaching Flow (75 min suggestion — this module needs extra time)
-| Time | Activity |
-|---|---|
-| 0–15 min | TLB diagram + EMAT numerical (work through live, this is THE most exam-critical numerical in the whole syllabus) |
-| 15–25 min | Page fault handling sequence diagram + EMAT-with-fault-probability numerical |
-| 25–50 min | Page replacement — run FIFO, LRU, Optimal side-by-side on the SAME reference string on the board so students see the fault-count contrast directly |
-| 50–60 min | Belady's Anomaly demo — show the counter-intuitive frame-increase example |
-| 60–75 min | Thrashing + working set + Clock algorithm — tie back to "why does my laptop freeze when too many apps are open?" |
+
 
 [⬅ Previous: Memory Management](../05-memory-management/README.md) | [⬆ Index](../README.md) | [Next: File System Management ➡](../07-file-system-management/README.md)
