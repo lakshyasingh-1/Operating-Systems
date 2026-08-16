@@ -132,12 +132,5 @@ D) To eliminate the need for an OS
 
 ---
 
-## 🧑‍🏫 Teaching Flow (45 min suggestion)
-| Time | Activity |
-|---|---|
-| 0–10 min | Draw the "sandwich" diagram (§1.1); discuss real examples (Windows, Linux, Android) |
-| 10–20 min | Three views (§1.2) — ask students to classify given scenarios into a view |
-| 20–35 min | Evolution timeline (§1.5) — tell it as a story, draw the Gantt-style CPU timeline |
-| 35–45 min | Quick MCQ round using the "Common GATE Traps" section |
 
 [⬅ Back to Index](../README.md) | [Next: Process Management & CPU Scheduling ➡](../02-process-management-and-cpu-scheduling/README.md)
