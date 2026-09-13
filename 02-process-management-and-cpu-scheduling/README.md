@@ -369,7 +369,7 @@ Which scheduling algorithm allows a process to move between different priority q
 - **HRRN** always has response ratio ≥ 1; use this to sanity-check your calculations.
 - **Aging** is the standard fix for starvation in priority scheduling; **MLFQ** is the general real-world answer that avoids most starvation issues by design.
 
---
+---
 
 # Preemptive vs Non-Preemptive
 
