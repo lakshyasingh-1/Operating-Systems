@@ -369,4 +369,58 @@ Which scheduling algorithm allows a process to move between different priority q
 - **HRRN** always has response ratio ≥ 1; use this to sanity-check your calculations.
 - **Aging** is the standard fix for starvation in priority scheduling; **MLFQ** is the general real-world answer that avoids most starvation issues by design.
 
+--
+
+# Preemptive vs Non-Preemptive
+
+| CPU Scheduling Algorithm                 | Type             | Key Point                                   |
+| ---------------------------------------- | ---------------- | ------------------------------------------- |
+| **FCFS (First Come First Serve)**        | ❌ Non-Preemptive | Process runs until it finishes              |
+| **SJF (Shortest Job First)**             | ❌ Non-Preemptive | Selects process with shortest burst time    |
+| **SRTF (Shortest Remaining Time First)** | ✅ Preemptive     | Preemptive version of SJF                   |
+| **Priority Scheduling**                  | ⚠️ Both          | Can be Preemptive or Non-Preemptive         |
+| **Round Robin (RR)**                     | ✅ Preemptive     | Uses a fixed time quantum                   |
+| **Multilevel Queue (MLQ)**               | ⚠️ Both          | Depends on the scheduling method used       |
+| **Multilevel Feedback Queue (MLFQ)**     | ✅ Preemptive     | Processes can move between queues           |
+| **HRRN (Highest Response Ratio Next)**   | ❌ Non-Preemptive | Selects process with highest response ratio |
+| **LJF (Longest Job First)**              | ❌ Non-Preemptive | Selects process with longest burst time     |
+| **LRTF (Longest Remaining Time First)**  | ✅ Preemptive     | Preemptive version of LJF                   |
+
+## Quick Revision
+
+### ❌ Non-Preemptive
+
+* **FCFS**
+* **SJF**
+* **HRRN**
+* **LJF**
+
+### ✅ Preemptive
+
+* **Round Robin (RR)**
+* **SRTF**
+* **LRTF**
+* **MLFQ**
+
+### ⚠️ Can Be Both
+
+* **Priority Scheduling**
+* **Multilevel Queue (MLQ)**
+
+## Easy Definition
+
+> **Preemptive:** CPU can be taken away from a running process before it finishes.
+
+> **Non-Preemptive:** Once a process gets the CPU, it keeps the CPU until it finishes or enters a waiting state.
+
+## Important Exam Trick
+
+**SJF → Non-Preemptive**
+**SRTF → Preemptive**
+
+**Priority → Both**
+
+**Round Robin → Preemptive**
+
+
 [⬅ Back to Module 2](./Module2-Process-Management-and-CPU-Scheduling.md)
